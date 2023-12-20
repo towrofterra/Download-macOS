@@ -16,6 +16,7 @@ Download any macOS Release without needing a Mac! Download in DMG, ISO, or ZIP F
 - Click on `Create a new repository`.
 - Enter the Repository Name as `Download-macOS`.
 - Click on the `Create repository` button.
+- Change the repo owner name at `.github/workflows/generate-installer.yml:37` to the new repo owner i.e. change Comp-Labs to the new repo owner (usually your github username)
 - Go to the **Actions** Tab.
 - Select `Generate macOS Installer`
 - Click on **Run workflow**. Select the desired options and click on **Run workflow**.
